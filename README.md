@@ -664,8 +664,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Dibyendu Libye**
 - GitHub: [@Dibyendu17122083](https://github.com/Dibyendu17122083)
-- Email: dibyendu.libye@example.com
-- Project: GlucoShe Diabetes Prediction System
+- Email: dibyendukarmahapatra@gmail.com
+- Project: GlucoShe (Women Diabetes Prediction System)
 - Role: Machine Learning Engineer & Full Stack Developer
 
 ## 🙏 Acknowledgments
