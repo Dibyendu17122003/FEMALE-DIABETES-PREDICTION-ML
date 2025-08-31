@@ -6,10 +6,34 @@
 
 <br>
 
+## 🛠️ Tech Stack
+
+### 🚀 Live Demo & Deployment
 [![Streamlit](https://img.shields.io/badge/🚀_Live_Demo-Site-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://female-diabetes-prediction-ml-app-dibyendu.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML)
+[![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+
+### 🐍 Core Python & ML
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![SVM](https://img.shields.io/badge/SVM-Classifier-8A2BE2?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Ensemble Learning](https://img.shields.io/badge/Ensemble-Learning-FF6B6B?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+
+### 📊 Data Processing & Analysis
+[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![Joblib](https://img.shields.io/badge/Joblib-Serialization-FF6B6B?style=for-the-badge)](https://joblib.readthedocs.io)
+
+### 📈 Visualization
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557C?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4C72B0?style=for-the-badge)](https://seaborn.pydata.org)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
+
+### 📄 License & Metadata
 [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=mit&logoColor=white)](LICENSE)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML?style=for-the-badge&logo=github)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML?style=for-the-badge&logo=github)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML/network/members)
+
 
 **Advanced ML-powered diabetes risk assessment with 90% accuracy using ensemble learning**
 
