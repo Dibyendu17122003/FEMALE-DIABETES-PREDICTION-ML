@@ -9,6 +9,7 @@
 [![Streamlit](https://img.shields.io/badge/🚀_Live_Demo-Site-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://female-diabetes-prediction-ml-app-dibyendu.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=mit&logoColor=white)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Advanced ML-powered diabetes risk assessment with 90% accuracy using ensemble learning**
 
