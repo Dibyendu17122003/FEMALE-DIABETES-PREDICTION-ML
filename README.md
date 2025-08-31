@@ -41,7 +41,78 @@ GlucoShe is an innovative machine learning-based web application designed specif
 
 <div align="center">
 
-![Workflow](https://via.placeholder.com/1000x400/6366f1/ffffff?text=End-to-End+ML+Pipeline+from+Data+Collection+to+Production+Deployment)
+```mermaid
+flowchart TD
+    A[📁 Raw Diabetes Data<br>PIMA Dataset] --> B[🔄 Data Preprocessing]
+    
+    subgraph B[Data Preprocessing]
+        B1[Data Cleaning]
+        B2[Missing Value Imputation]
+        B3[Outlier Handling]
+    end
+    
+    B --> C[⚙️ Feature Engineering]
+    
+    subgraph C[Feature Engineering]
+        C1[Feature Scaling<br>StandardScaler]
+        C2[Feature Selection]
+        C3[Data Normalization]
+    end
+    
+    C --> D[📊 Train-Test Split<br>80-20 Stratified]
+    D --> E[🤖 Model Training]
+    
+    subgraph E[Model Training Phase]
+        E1[SVM Classifier]
+        E2[Random Forest]
+        E3[Logistic Regression]
+        E4[Hyperparameter Tuning<br>GridSearchCV]
+    end
+    
+    E --> F[🔄 Ensemble Methods]
+    
+    subgraph F[Ensemble Learning]
+        F1[Voting Classifier]
+        F2[Stacking Classifier]
+        F3[Meta-Learner Training]
+    end
+    
+    F --> G[📈 Model Evaluation]
+    
+    subgraph G[Evaluation Phase]
+        G1[Cross-Validation<br>5-Fold]
+        G2[Performance Metrics<br>Accuracy, Precision, Recall]
+        G3[Confusion Matrix Analysis]
+    end
+    
+    G --> H{Performance Check}
+    H -- ✅ Best Model --> I[🎯 Model Selection<br>Stacking Classifier: 90% Accuracy]
+    H -- ❌ Retrain --> E
+    
+    I --> J[💾 Model Serialization<br>Pickle Export]
+    J --> K[🚀 Deployment]
+    
+    subgraph K[Deployment Phase]
+        K1[Streamlit Web App]
+        K2[REST API Development]
+        K3[Cloud Deployment<br>Streamlit Cloud]
+    end
+    
+    K --> L[🌐 Production Environment<br>Live Predictions]
+    
+    style A fill:#e1f5fe,color:#01579b,stroke:#01579b,stroke-width:2px
+    style B fill:#f3e5f5,color:#4a148c,stroke:#4a148c,stroke-width:2px
+    style C fill:#e8f5e9,color:#1b5e20,stroke:#1b5e20,stroke-width:2px
+    style D fill:#fff3e0,color:#e65100,stroke:#e65100,stroke-width:2px
+    style E fill:#e0f7fa,color:#006064,stroke:#006064,stroke-width:2px
+    style F fill:#f1f8e9,color:#33691e,stroke:#33691e,stroke-width:2px
+    style G fill:#fff8e1,color:#ff6f00,stroke:#ff6f00,stroke-width:2px
+    style H fill:#fce4ec,color:#880e4f,stroke:#880e4f,stroke-width:2px
+    style I fill:#c8e6c9,color:#1b5e20,stroke:#1b5e20,stroke-width:3px
+    style J fill:#bbdefb,color:#0d47a1,stroke:#0d47a1,stroke-width:2px
+    style K fill:#d1c4e9,color:#311b92,stroke:#311b92,stroke-width:2px
+    style L fill:#c5e1a5,color:#33691e,stroke:#33691e,stroke-width:3px
+```
 
 </div>
 
