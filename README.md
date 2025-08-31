@@ -39,6 +39,14 @@
 
 </div>
 
+# 🩺 GlucoShe - Diabetes Prediction System
+
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo_App-Click_Here-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://female-diabetes-prediction-ml-app-dibyendu.streamlit.app/)
+
+</div>
+
 ## 📖 Table of Contents
 
 <details>
