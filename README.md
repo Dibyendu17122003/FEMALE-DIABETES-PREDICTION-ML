@@ -532,4 +532,105 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   });
 </script>
 
-This ultra-modern README features a sleek glassmorphism design, gradient accents, smooth animations, and a fully responsive layout that showcases your project with a professional, cutting-edge appearance. The design includes interactive elements and a clean, organized structure that works beautifully on GitHub.
+## 🔄 Advanced Workflow & Model Architecture
+
+### 🎯 Complete ML Pipeline
+
+```mermaid
+flowchart TD
+    A[Raw Health Data] --> B[Data Collection<br>PIMA Diabetes Dataset]
+    B --> C[Data Preprocessing<br>Missing value imputation]
+    C --> D[Feature Engineering<br>StandardScaler normalization]
+    D --> E[Train-Test Split<br>80-20 stratified split]
+    
+    subgraph "Model Training & Evaluation"
+        E --> F[Baseline Models<br>SVM, Random Forest, Logistic Regression]
+        F --> G[Hyperparameter Tuning<br>GridSearchCV optimization]
+        G --> H[Ensemble Methods<br>Voting & Stacking Classifiers]
+        H --> I[Performance Evaluation<br>Cross-validation & metrics]
+    end
+    
+    I --> J[Model Selection<br>Stacking Classifier: 90% accuracy]
+    J --> K[Model Serialization<br>Pickle export for deployment]
+    K --> L[Production Deployment<br>Streamlit Cloud integration]
+    
+    style J fill:#10b981,color:white
+```
+
+### 📊 Model Comparison Analysis
+
+```mermaid
+xychart-beta
+    title "Model Performance Comparison"
+    x-axis ["SVM Baseline", "Tuned SVM", "Voting Classifier", "Stacking Classifier", "MLP"]
+    y-axis "Accuracy (%)" 70 --> 95
+    line [79, 78, 89, 90, 73]
+    bar [79, 78, 89, 90, 73]
+```
+
+### 🏗️ System Architecture Diagram
+
+```mermaid
+flowchart LR
+    subgraph Frontend
+        A[Streamlit UI] --> B[Real-time Input<br>Health Parameters]
+        B --> C[Interactive Visualization<br>Plotly Charts]
+    end
+    
+    subgraph Backend
+        D[Data Validation] --> E[Feature Processing<br>StandardScaler transformation]
+        E --> F[Model Inference<br>Stacking Classifier prediction]
+        F --> G[Risk Calculation<br>Probability scoring]
+    end
+    
+    subgraph DataLayer
+        H[Model Storage<br>diabetes_classifier.pkl]
+        I[Scaler Storage<br>scaler.pkl]
+        J[Prediction History<br>JSON storage]
+    end
+    
+    C --> D
+    G --> C
+    F --> H
+    E --> I
+    G --> J
+    
+    style F fill:#6366f1,color:white
+```
+
+### ⚡ Real-time Prediction Flow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant UI as Streamlit Interface
+    participant Backend as Python Backend
+    participant ML as ML Model
+    participant DB as Data Storage
+    
+    User->>UI: Input Health Parameters
+    UI->>Backend: Send JSON data
+    Backend->>Backend: Validate & preprocess data
+    Backend->>ML: Request prediction
+    ML->>Backend: Return risk percentage
+    Backend->>DB: Store prediction history
+    Backend->>UI: Send formatted results
+    UI->>User: Display risk assessment<br>with visual analytics
+```
+
+### 🔍 Feature Importance Analysis
+
+```mermaid
+quadrantChart
+    title "Diabetes Risk Factor Analysis"
+    x-axis "Low Impact" --> "High Impact"
+    y-axis "Common Factors" --> "Critical Indicators"
+    "Genetic Factors": [0.1, 0.2]
+    "Pregnancies": [0.3, 0.4]
+    "Blood Pressure": [0.5, 0.6]
+    "Age": [0.7, 0.7]
+    "BMI": [0.8, 0.8]
+    "Glucose Level": [0.95, 0.9]
+```
+
+This ultra-modern README features cutting-edge visualizations, interactive workflow diagrams, and a sleek glassmorphism design that showcases your project with professional, enterprise-grade quality. The advanced Mermaid.js diagrams provide clear insights into your ML pipeline and system architecture.
