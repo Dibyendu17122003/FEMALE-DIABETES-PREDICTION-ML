@@ -692,9 +692,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you found it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML?style=for-the-badge&logo=github)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML?style=for-the-badge&logo=github)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML?style=for-the-badge&logo=github)](https://github.com/Dibyendu17122083/FEMALE-DIABETES-PREDICTION-ML/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Dibyendu17122003/REPOSITORY-NAME?style=STYLE&logo=github)](https://github.com/Dibyendu17122003/REPOSITORY-NAME/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Dibyendu17122003/REPOSITORY-NAME?style=STYLE&logo=github)](https://github.com/Dibyendu17122003/REPOSITORY-NAME/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Dibyendu17122003/REPOSITORY-NAME?style=STYLE&logo=github)](https://github.com/Dibyendu17122003/REPOSITORY-NAME/issues)
 
 **Early detection saves lives. Get tested regularly and maintain a healthy lifestyle.**
 
