@@ -662,7 +662,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Dibyendu Libye**
+Dibyendu Karmahapatra
 - GitHub: [Dibyendu17122083](https://github.com/Dibyendu17122003)
 - Email: dibyendukarmahapatra@gmail.com
 - Project: GlucoShe (Women Diabetes Prediction System)
